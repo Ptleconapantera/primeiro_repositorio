@@ -1,0 +1,19 @@
+h1 {
+    background-color: rgb(34, 34, 34);
+    font-size: 45px;
+    font-style:italic;
+}
+aside{
+    background-color: beige;
+}
+
+.tabela {
+    background-color: aquamarine;
+}
+
+figcaption{
+    border: 20px black;
+
+
+
+}
