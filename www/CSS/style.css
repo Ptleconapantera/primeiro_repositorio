@@ -1,10 +1,12 @@
 h1 {
     background-color: rgb(34, 34, 34);
+    color: blueviolet;
     font-size: 45px;
-    font-style:italic;
+    font-style:oblique;
+    text-align: center;
 }
 aside{
-    background-color: beige;
+    background-color:white
 }
 
 .tabela {
@@ -15,4 +17,9 @@ img {
     border: 2px solid rgb(250, 11, 11);
     border-radius: 8px;
     padding: 5px;
+}
+footer {
+    background-color:rgb(68, 68, 68);
+    text-align: center;
+    color: azure;
 }
