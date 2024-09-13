@@ -11,9 +11,8 @@ aside{
     background-color: aquamarine;
 }
 
-figcaption{
-    border: 20px black;
-
-
-
+img {
+    border: 2px solid rgb(250, 11, 11);
+    border-radius: 8px;
+    padding: 5px;
 }
