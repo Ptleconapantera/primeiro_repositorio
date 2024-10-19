@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container {
+    width: 45%;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
