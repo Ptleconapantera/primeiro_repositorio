@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Eisenhower</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="caixa">
+    <div class="box" id="urgent-important">
+        <h3>Importante e urgente</h3>
+    </div>
+    <div class="box" id="not-urgent-important">
+        <h3>Importante, mas não urgente</h3>
+    </div>
+    <div class="box" id="urgent-not-important">
+        <h3>Não Importante, mas urgente</h3>
+    </div>
+    <div class="box" id="not-urgent-not-important">
+        <h3>Não Importante e Nem urgente</h3>
+    </div>
+</div>
+
+<input type="text" id="taskInput" placeholder="Digite sua tarefa">
+<select id="prioritySelect">
+    <option value="urgent-important">Importante e urgente</option>
+    <option value="not-urgent-important">Importante, mas não urgente</option>
+    <option value="urgent-not-important">Importante, mas não urgente</option>
+    <option value="not-urgent-not-important">Não Importante e Nem urgente</option>
+</select>
+<button onclick="addTarefa()">Adicionar Tarefa</button>
+
+<script src="script.js"></script>
+</body>
+</html>
